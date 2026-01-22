@@ -6,19 +6,20 @@ The project follows a hybrid architecture that combines supervised learning, det
 
 This project has been developed with the collaboration of the company NFOQUE.
 
----
+
 
 ## Project structure
 
 The repository is organized around a single executable notebook that contains the complete pipeline.
 
+```text
 ├── Final_Code_Project_NFOQUE.ipynb # Main notebook with full implementation
 ├── data/ # Simulated sensor data
 ├── models/ # Saved model checkpoints
 │ └── best_lstm_attention_model.pt
 ├── README.md
+```
 
----
 
 ## Phase 1 – Exploration and unsupervised analysis
 
@@ -33,7 +34,7 @@ Main components:
 
 The goal of this phase is to provide a structured understanding of normal behavior and support later alert definition.
 
----
+
 
 ## Phase 2 – Supervised modeling and alert design
 
@@ -55,7 +56,7 @@ The goal of this phase is to provide a structured understanding of normal behavi
   - Local LLM executed via Ollama (integrated using LangChain)
 - The agent receives a structured semantic summary and is constrained to return a single alert level and action, prioritizing safety.
 
----
+
 
 ## Phase 3 – Real-time operation and visualization
 
@@ -89,7 +90,7 @@ The dashboard is designed to support supervision and system evaluation rather th
 - Causal real-time processing
 - Modular and extensible system design
 
----
+
 
 ## Requirements
 
@@ -102,7 +103,7 @@ Main dependencies include:
 - LangChain
 - Ollama (optional, for local LLM execution)
 
----
+
 
 ## How to run
 
@@ -111,7 +112,7 @@ Main dependencies include:
 3. Open and run `Final_Code_Project_NFOQUE.ipynb`
 4. Execute all cells to train or load the model and launch the dashboard
 
----
+
 
 ## Notes
 
