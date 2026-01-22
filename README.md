@@ -14,8 +14,8 @@ The repository is organized around a single executable notebook that contains th
 
 ```text
 ├── Final_Code_Project_NFOQUE.ipynb # Main notebook with full implementation
-├── data/ # Simulated sensor data
-├── models/ # Saved model checkpoints
+├── Data/
+│ └── Datasets
 │ └── best_lstm_attention_model.pt
 ├── README.md
 ```
