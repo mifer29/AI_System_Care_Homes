@@ -1,4 +1,4 @@
-# Intelligent Monitoring System for Elderly Care Homes
+# Intelligent System for Autonomous Assistance in Elderly Care Homes
 
 This repository contains the full implementation of an intelligent monitoring system designed for elderly care environments. The system processes heterogeneous sensor data, predicts resident behavioral states, and generates safety alerts under simulated real time conditions.
 
